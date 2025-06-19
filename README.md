@@ -23,23 +23,18 @@ All you do is run the program with the `-d` flag and the code for a particular d
 
 ## Installation
 
-Simple, understandable installation instructions!
+You'll need to install the following libraries from your package manager. I've listed a few of them below depending on your flavor of Linux.
 
-```bash
-pip install my-package
-```
-
-And be sure to specify any other minimum requirements like Python versions or operating systems.
-
-*You may be inclined to add development instructions here, don't.*
-
+| Distro | Command |
+| --- | --- |
+| Fedora (41+) | `sudo dnf install ...` |
+| Arch Linux | `sudo pacman -Sy ...` |
 
 ## Feedback and Contributing
 
-Add a link to the Discussions tab in your repo and invite users to open issues for bugs/feature requests.
-
-This is also a great place to invite others to contribute in any ways that make sense for your project. Point people to your DEVELOPMENT and/or CONTRIBUTING guides if you have them.
+I'm open to any suggestions once the program is up and running along with any bugs you find.
 
 ## Attributions, References, Thank You's
+Attributions:
 https://github.com/banesullivan/README
 https://github.com/alexandresanlim/Badges4-README.md-Profile?tab=readme-ov-file

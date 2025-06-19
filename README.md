@@ -1,34 +1,25 @@
 # peace0crap
 
-![image](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+![image](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
 ![image](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 
-## :star: Highlights
-
-- Check the validity of the download ISO file without having to run a bunch of commands from the CLI.
-- Select a distro and automatically download all the files you'll need.
-
-
 ## Overview
+This program downloads a distro image and check the validity and integrity without having to run a bunch of commands from the CLI. 
 
-A paragraph explaining your work, who you are, and why you made it.
+I thought of creating this program after reading about a hack that occurred on [February 20th, 2016](https://blog.linuxmint.com/?p=2994) that resulted in a modified Linux Mint image with a backdoor. A lot of folks either don't have the time to verify the files or they don't know how to. And like the hacker (Peace) involved in this incident said in a [ZDnet article](https://www.zdnet.com/article/hacker-hundreds-were-tricked-into-installing-linux-mint-backdoor/): 
 
+> Who the f**k checks those anyway?
 
-## Authors
-
-Mention who you are and link to your GitHub or organization's website.
-
+With this program, hopefully the answer is you.
 
 ## Usage
 
-*Show off what your software looks like in action! Try to limit it to one-liners if possible and don't delve into API specifics.*
+All you do is run the program with the `-d` flag and the code for a particular distro. The current version supports the following distros:
 
-```py
->>> import mypackage
->>> mypackage.do_stuff()
-'Oh yeah!'
-```
-
+| Distro | code |
+| --- | --- |
+| Fedora | fedora |
+| Arch Linux | arch |
 
 ## Installation
 

@@ -35,6 +35,6 @@ You'll need to install the following libraries from your package manager. I've l
 I'm open to any suggestions once the program is up and running along with any bugs you find.
 
 ## Attributions, References, Thank You's
-Attributions:
-https://github.com/banesullivan/README
-https://github.com/alexandresanlim/Badges4-README.md-Profile?tab=readme-ov-file
+Attributions:  
+https://github.com/banesullivan/README  
+https://github.com/alexandresanlim/Badges4-README.md-Profile?tab=readme-ov-file  

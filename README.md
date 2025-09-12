@@ -18,23 +18,22 @@ All you do is run the program with the `-d` flag and the code for a particular d
 
 | Distro | code |
 | --- | --- |
-| Fedora | fedora |
+| Fedora 42 | fedora-42 |
 | Arch Linux | arch |
 
 ## Installation
 
-You'll need to install the following libraries from your package manager. I've listed a few of them below depending on your flavor of Linux.
+You'll need to install the following program and libraries from your package manager. I've listed a few of them below depending on your flavor of Linux.
 
 | Distro | Command |
 | --- | --- |
-| Fedora (41+) | `sudo dnf install ...` |
-| Arch Linux | `sudo pacman -Sy ...` |
+| Fedora (41+) | `sudo dnf install gnupg2 gpgme` |
+| Arch Linux | `sudo pacman -Sy gnupg gpgme` |
 
 ## Feedback and Contributing
 
 I'm open to any suggestions once the program is up and running along with any bugs you find.
 
-## Attributions, References, Thank You's
-Attributions:  
+## Attributions, References, Thank You's 
 https://github.com/banesullivan/README  
 https://github.com/alexandresanlim/Badges4-README.md-Profile?tab=readme-ov-file  

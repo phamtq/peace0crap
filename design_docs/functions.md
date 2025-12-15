@@ -26,8 +26,8 @@ An outline of the various functions of the program along with some potential not
 
 - Returns `0` if everything was okay, otherwise it returns a non-zero number (number helps determine the error for troubleshooting).
 
-## int download( *char \*url*)
-- Downloads the requested file from the Internet.
+## int download( *char \*url* )
+- Downloads the requested file from the Internet using the `curl` library.
 - Return `0` if successful, `1` if it was not.
 
 ## void closingMsg()

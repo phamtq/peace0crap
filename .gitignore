@@ -1,3 +1,4 @@
 testing/
 main
-*.swp
+.*
+!/.gitignore

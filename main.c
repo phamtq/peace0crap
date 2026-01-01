@@ -10,12 +10,20 @@
 
 #include <gpgme-64.h>
 #include <gpgme.h>
-#include <sched.h>
 
 int main() {
 	gpgme_error_t error;
 	gpgme_ctx_t context;
 
-	gpgme_check_version(NULL);
+	gpgme_data_t pubkey;
 
+	// Initialize subsystems, etc...
+	gpgme_check_version(NULL);
+	gpgme_data_new_from_file(&pubkey, "pubkey.asc", 0);
+	
+
+	//gpgme_data_release(keyData);
+	gpgme_release(context);
+	
+	return 0;
 }
